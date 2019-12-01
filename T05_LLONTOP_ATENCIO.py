@@ -68,3 +68,15 @@ type_numero_de_dias_trabajados_de_un_empleado_es_float=isinstance(numero_de_dias
 print("variable numero de dias trabajados de un empleado:",type_numero_de_dias_trabajados_de_un_empleado)
 print("variable es int?:",type_numero_de_dias_trabajados_de_un_empleado_es_int)
 print("variable es float?:",type_numero_de_dias_trabajados_de_un_empleado_es_float)
+
+
+#EJERCICIO_07
+horas_extras_de_un_empleado=8
+type_horas_extras_de_un_empleado=type(horas_extras_de_un_empleado)
+
+type_horas_extras_de_un_empleado_es_int=isinstance(horas_extras_de_un_empleado,int)
+type_horas_extras_de_un_empleado_es_str=isinstance(horas_extras_de_un_empleado,str)
+
+print("variable horas extras de un empleado:",type_horas_extras_de_un_empleado)
+print("variable es int?:",type_horas_extras_de_un_empleado_es_int)
+print("variable es str?:",type_horas_extras_de_un_empleado_es_str)
