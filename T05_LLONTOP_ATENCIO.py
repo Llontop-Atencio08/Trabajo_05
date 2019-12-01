@@ -56,3 +56,15 @@ costo_por_litro_de_leche_fresca_es_str=isinstance(costo_por_litro_de_leche_fresc
 print("variable costo por litro de leche es:",type_costo_por_litro_de_leche_fresca)
 print("variable es float?:",costo_por_litro_de_leche_fresca_es_float)
 print("variable es str?:",costo_por_litro_de_leche_fresca_es_str)
+
+
+#EJERCICIO_06
+numero_de_dias_trabajados_de_un_empleado=28
+type_numero_de_dias_trabajados_de_un_empleado=type(numero_de_dias_trabajados_de_un_empleado)
+
+type_numero_de_dias_trabajados_de_un_empleado_es_int=isinstance(numero_de_dias_trabajados_de_un_empleado,int)
+type_numero_de_dias_trabajados_de_un_empleado_es_float=isinstance(numero_de_dias_trabajados_de_un_empleado,float)
+
+print("variable numero de dias trabajados de un empleado:",type_numero_de_dias_trabajados_de_un_empleado)
+print("variable es int?:",type_numero_de_dias_trabajados_de_un_empleado_es_int)
+print("variable es float?:",type_numero_de_dias_trabajados_de_un_empleado_es_float)
