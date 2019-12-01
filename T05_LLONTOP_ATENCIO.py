@@ -104,3 +104,15 @@ type_costo_de_ventas_en_el_ciclo_es_str=isinstance(costo_de_ventas_en_el_ciclo,s
 print("variable costo de ventas en el ciclo:",type_costo_de_ventas_en_el_ciclo_es_float)
 print("variable es float?:",type_costo_de_ventas_en_el_ciclo_es_float)
 print("variable es str?:",type_costo_de_ventas_en_el_ciclo_es_str)
+
+
+#EJERCICIO_10
+nombre_de_alumno="ena"
+type_nombre_de_alumno=type(nombre_de_alumno)
+
+type_nombre_de_alumno_es_str=isinstance(nombre_de_alumno,str)
+type_nombre_de_alumno_es_float=isinstance(nombre_de_alumno,float)
+
+print("variable nombre de alumno:",type_nombre_de_alumno_es_str)
+print("variable es str?:",type_nombre_de_alumno_es_str)
+print("variable es float?:",type_nombre_de_alumno_es_float)
