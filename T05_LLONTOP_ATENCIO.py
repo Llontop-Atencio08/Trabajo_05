@@ -274,3 +274,16 @@ print("variable es int?:",type_numero_de_visitas_bruning_es_int)
 print("variable es str?:",type_numero_de_visitas_bruning_es_str)
 
 
+#EJERCICIO_24
+promedio_de_visitas_a_lugares_turisticos=62
+type_promedio_de_visitas_a_lugares_turisticos=type(promedio_de_visitas_a_lugares_turisticos)
+
+type_promedio_de_visitas_a_lugares_turisticos_es_int=isinstance(promedio_de_visitas_a_lugares_turisticos,int)
+type_promedio_de_visitas_a_lugares_turisticos_es_str=isinstance(promedio_de_visitas_a_lugares_turisticos,str)
+
+print("variable promedio de visitas a lugares turisticos:",type_promedio_de_visitas_a_lugares_turisticos_es_int)
+print("variable es int?:",type_promedio_de_visitas_a_lugares_turisticos_es_int)
+print("variable es str?:",type_promedio_de_visitas_a_lugares_turisticos_es_str)
+
+
+
