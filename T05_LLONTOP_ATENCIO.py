@@ -80,3 +80,15 @@ type_horas_extras_de_un_empleado_es_str=isinstance(horas_extras_de_un_empleado,s
 print("variable horas extras de un empleado:",type_horas_extras_de_un_empleado)
 print("variable es int?:",type_horas_extras_de_un_empleado_es_int)
 print("variable es str?:",type_horas_extras_de_un_empleado_es_str)
+
+
+#EJERCICIO_08
+numero_de_clientes_en_el_ciclo=12
+type_numero_de_clientes_en_el_ciclo=type(numero_de_clientes_en_el_ciclo)
+
+type_numero_de_clientes_en_el_ciclo_es_int=isinstance(numero_de_clientes_en_el_ciclo,int)
+type_numero_de_clientes_en_el_ciclo_es_str=isinstance(numero_de_clientes_en_el_ciclo,str)
+
+print("variable numero de clientes en el ciclo:",type_numero_de_clientes_en_el_ciclo_es_int)
+print("variable es int?:",type_numero_de_clientes_en_el_ciclo_es_int)
+print("variable es str?:",type_numero_de_clientes_en_el_ciclo_es_str)
