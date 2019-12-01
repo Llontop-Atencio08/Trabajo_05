@@ -322,6 +322,18 @@ print("variable es str?:",type_nombre_de_adolescente_es_str)
 print("variable es int?:",type_nombre_de_adolescente_es_int)
 
 
+#EJERCICIO_28
+edad=16
+type_edad=type(edad)
+
+type_edad_es_int=isinstance(edad,int)
+type_edad_es_str=isinstance(edad,str)
+
+print("variable edad:", type_edad_es_int)
+print("variable es str?:",type_edad_es_int)
+print("variable es int?:",type_edad_es_str)
+
+
 
 
 
