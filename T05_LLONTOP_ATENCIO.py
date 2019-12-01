@@ -237,3 +237,15 @@ type_departamento_es_int=isinstance(departamento,int)
 print("variable departamento es:",type_departamento_es_str)
 print("variable es str?:",type_departamento_es_str)
 print("variable es int?:",type_departamento_es_int)
+
+
+#EJERCICIO_21
+numero_de_visitas_tumbas_reales=55
+type_numero_de_visitas_tumbas_reales=type(numero_de_visitas_tumbas_reales)
+
+type_numero_de_visitas_tumbas_reales_es_int=isinstance(numero_de_visitas_tumbas_reales,int)
+type_numero_de_visitas_tumbas_reales_es_str=isinstance(numero_de_visitas_tumbas_reales,str)
+
+print("variable numero de visitas tumbas reales:",type_numero_de_visitas_tumbas_reales_es_int)
+print("variable es int?:",type_numero_de_visitas_tumbas_reales_es_int)
+print("variable es str?:",type_numero_de_visitas_tumbas_reales_es_str)
