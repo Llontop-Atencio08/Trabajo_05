@@ -334,6 +334,20 @@ print("variable es str?:",type_edad_es_int)
 print("variable es int?:",type_edad_es_str)
 
 
+#EJERCICIO_29
+anio_de_nacimiento=1997
+type_anio_de_nacimiento=type(anio_de_nacimiento)
+
+type_anio_de_nacimiento_es_int=isinstance(anio_de_nacimiento,int)
+type_anio_de_nacimiento_es_str=isinstance(anio_de_nacimiento,str)
+
+print("variable anio de nacimiento:",type_anio_de_nacimiento_es_int)
+print("variable es int?:",type_anio_de_nacimiento_es_int)
+print("variable es str?:",type_anio_de_nacimiento_es_str)
+
+
+
+
 
 
 
