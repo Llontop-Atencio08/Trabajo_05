@@ -92,3 +92,15 @@ type_numero_de_clientes_en_el_ciclo_es_str=isinstance(numero_de_clientes_en_el_c
 print("variable numero de clientes en el ciclo:",type_numero_de_clientes_en_el_ciclo_es_int)
 print("variable es int?:",type_numero_de_clientes_en_el_ciclo_es_int)
 print("variable es str?:",type_numero_de_clientes_en_el_ciclo_es_str)
+
+
+#EJERCICIO_09
+costo_de_ventas_en_el_ciclo=345.80
+type_costo_de_ventas_en_el_ciclo=type(costo_de_ventas_en_el_ciclo)
+
+type_costo_de_ventas_en_el_ciclo_es_float=isinstance(costo_de_ventas_en_el_ciclo,float)
+type_costo_de_ventas_en_el_ciclo_es_str=isinstance(costo_de_ventas_en_el_ciclo,str)
+
+print("variable costo de ventas en el ciclo:",type_costo_de_ventas_en_el_ciclo_es_float)
+print("variable es float?:",type_costo_de_ventas_en_el_ciclo_es_float)
+print("variable es str?:",type_costo_de_ventas_en_el_ciclo_es_str)
