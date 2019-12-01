@@ -310,7 +310,7 @@ print("variable es str?:",type_nombre_de_discoteca_es_str)
 print("variable es float?:",type_nombre_de_discoteca_es_float)
 
 
-EJERCICIO_27
+#EJERCICIO_27
 nombre_de_adolescente="santiago"
 type_nombre_de_adolescente=type(nombre_de_adolescente)
 
